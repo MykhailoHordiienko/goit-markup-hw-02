@@ -10,11 +10,17 @@
 	--part-logo: #000000;
 }
 
+/* Body */
+
 body {
 	background-color: var(--main-background);
 	color: var(--primery-text-color);
+
 	font-family: roboto, sans-serif;
 	letter-spacing: 0.03em;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.7;
 }
 
 .header {
@@ -25,8 +31,8 @@ body {
 
 .logo {
 	color: var(--accent-color);
+
 	font-family: raleway, sans-serif;
-	font-style: normal;
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.2;
@@ -50,7 +56,7 @@ body {
 
 .site-nav .link {
 	color: var(--title-text-color);
-	font-style: normal;
+
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.14;
@@ -64,7 +70,7 @@ body {
 
 .header-contact .contact {
 	color: var(--primery-text-color);
-	font-style: normal;
+
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.14px;
@@ -81,7 +87,7 @@ body {
 .hero {
 	color: var(--main-white-color);
 	background-color: var(--secondary-background);
-	font-style: normal;
+
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 1.36;
@@ -90,8 +96,8 @@ body {
 .hero-button {
 	color: var(--main-white-color);
 	background-color: var(--accent-color);
+
 	letter-spacing: 0.06em;
-	font-style: normal;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.87;
@@ -101,12 +107,39 @@ body {
 
 .section-title {
 	color: var(--title-text-color);
+
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+}
+
+.section-title.photo {
+	color: var(--title-text-color);
+
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.16;
+	text-align: center;
 }
 
 /* Наша команда */
 
 .section.teem {
 	background-color: var(--teem-background);
+}
+
+.name-title {
+	color: var(--title-text-color);
+
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.18;
+}
+
+.work-title {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.18;
 }
 
 /* Footer */
@@ -117,6 +150,10 @@ body {
 
 .address {
 	color: var(--main-white-color);
+
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.7;
 }
 
 .address:hover,
@@ -126,6 +163,10 @@ body {
 
 .footer-contact .contact {
 	color: var(--rgba);
+
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
 }
 
 .footer-contact .contact:hover,
@@ -138,6 +179,7 @@ body {
 .portfolio-buttons .button {
 	background-color: var(--teem-background);
 	color: var(--title-text-color);
+
 	font-family: inherit;
 }
 
