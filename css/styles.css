@@ -36,6 +36,7 @@ body {
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.2;
+  text-decoration: none;
 }
 
 .logo-part {
@@ -61,6 +62,7 @@ body {
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -75,6 +77,7 @@ body {
 	font-size: 14px;
 	line-height: 1.14px;
 	letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .header-contact .contact:hover,
@@ -137,7 +140,6 @@ body {
 }
 
 .work-title {
-	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.18;
 }
@@ -151,9 +153,9 @@ body {
 .address {
 	color: var(--main-white-color);
 
-	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.7;
+  text-decoration: none;
 }
 
 .address:hover,
@@ -164,9 +166,9 @@ body {
 .footer-contact .contact {
 	color: var(--rgba);
 
-	font-weight: 400;
 	font-size: 14px;
 	line-height: 24px;
+  text-decoration: none;
 }
 
 .footer-contact .contact:hover,
@@ -206,7 +208,6 @@ body {
 .link-description {
 	color: var(--primery-text-color);
 
-	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.9;
 }
