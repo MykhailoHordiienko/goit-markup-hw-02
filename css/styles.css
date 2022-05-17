@@ -67,6 +67,10 @@ body {
 	color: var(--accent-color);
 }
 
+.site-nav .link.current	{
+	color: var(--accent-color);
+}
+
 .header-contact .contact {
 	color: var(--primery-text-color);
 
